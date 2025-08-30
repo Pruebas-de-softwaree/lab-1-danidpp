@@ -33,3 +33,4 @@ if __name__ == "__main__":
     print(user_manager.get_all_names())
     print(user_manager.find_user(8))
     user_manager.delete_user(15)
+    print(user_manager.find_user(15))
