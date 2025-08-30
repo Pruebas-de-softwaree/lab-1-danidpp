@@ -40,3 +40,9 @@ if __name__ == "__main__":
     print(user_manager.get_all_names())
     end = time.time()
     print("duration:", end - start, "seconds")
+    user_manager.add_user(18,"Dani")
+    duplicados = []
+    for i in user_manager.get_all_names():
+        if user_manager.get_all_names().count(i) > 1 and i not in duplicados:
+            duplicados.append(i)
+    print("Duplicados:", duplicados)
