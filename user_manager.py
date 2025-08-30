@@ -35,3 +35,4 @@ if __name__ == "__main__":
     user_manager.delete_user(15)
     print(user_manager.find_user(15))
     print(user_manager.get_all_names())
+    print(user_manager.average_user_id())
