@@ -36,4 +36,7 @@ if __name__ == "__main__":
     print(user_manager.find_user(15))
     print(user_manager.get_all_names())
     print(user_manager.average_user_id())
+    start = time.time()  
     print(user_manager.get_all_names())
+    end = time.time()
+    print("duration:", end - start, "seconds")
